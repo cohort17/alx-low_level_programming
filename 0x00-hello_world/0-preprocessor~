@@ -1,0 +1,4 @@
+#!/bin/bash
+CFILE="main.c"
+c="$CFILE"
+echo "$c"
