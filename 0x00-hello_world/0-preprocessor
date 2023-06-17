@@ -1,4 +1,3 @@
 #!/bin/bash
 CFILE="main.c"
-c="$CFILE"
 gcc "$CFILE" -o "$c"
