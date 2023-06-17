@@ -6,6 +6,6 @@
 /*return- always 0 (success)*/
 int main(void)
 {
-printf("Holberton School")
+printf("Holberton School");
 return (0);
 }
