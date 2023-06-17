@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE="main.c" file_out="c" gcc "$CFILE" > "$file_out"
+CFILE="main.c" c="file_out" gcc "$CFILE" > "$file_out"
