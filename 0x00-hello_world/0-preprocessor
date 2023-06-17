@@ -1,2 +1,7 @@
 #!/bin/bash
+<<<<<<< HEAD
+CFILE="main.c" file_out="c" gcc "$CFILE" > "$file_out"
+
+=======
 gcc main.c -o CFILE | cat $CFILE > c
+>>>>>>> 39ded6f5092beded53e22ae710f8444b888b6eea
