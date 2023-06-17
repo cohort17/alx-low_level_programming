@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/* main- entry point but it takes no argument */
+/*
+*the main function is the entry point of the program
+*it exexcute the desired functionality and returns an exit status
+*/
 /* return- always 0 (sucessed) */
 int main(void)
 {
