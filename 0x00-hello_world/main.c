@@ -1,7 +1,6 @@
 #include <stdio.h>
-/*
-*
-*main-entry point it takes no argument
+/**
+* main- the starting point of a C program and contains the code that is execute
 */
 /*return- always 0 (success)*/
 int main(void)
