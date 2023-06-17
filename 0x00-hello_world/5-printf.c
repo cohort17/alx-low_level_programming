@@ -1,5 +1,7 @@
 #include <stdio.h>
-/* main- starting point for code execution */
+/**
+* main- the starting point of a C program and contains the code that is execute
+*/
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
