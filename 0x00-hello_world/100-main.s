@@ -1,9 +1,9 @@
-	.file	"main.c"
+	.file	"100-main.c"
 	.intel_syntax noprefix
 	.text
 	.section	.rodata
 .LC0:
-	.string	"Hello World"
+	.string	"Holberton School"
 	.text
 	.globl	main
 	.type	main, @function
