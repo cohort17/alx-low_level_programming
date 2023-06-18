@@ -1,6 +1,9 @@
 #include <stdio.h>
 /**
-* main- the starting point of a C program and contains the code that is execute
+*main- here is where are code starts,
+*it contains the code we want to execute.
+*return-here shows the executed codes in the main function,
+*if it executed successfully 
 */
 int main(void)
 {
