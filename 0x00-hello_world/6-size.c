@@ -4,7 +4,7 @@
 *
 *it contains the code we want to execute.
 *
-*return- always 0 (sucessed)
+*return- shows if our code is sucessful returns 0
 */
 int main(void)
 {
