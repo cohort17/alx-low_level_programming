@@ -2,8 +2,8 @@
 /**
 *main- here is where are code starts,
 *it contains the code we want to execute.
-*return-here shows the executed codes in the main function,
-*if it executed successfully
+*return- it shows code execution successful
+*if it returns 0 always.
 */
 int main(void)
 {
