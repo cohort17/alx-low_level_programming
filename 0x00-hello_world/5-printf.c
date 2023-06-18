@@ -2,7 +2,7 @@
 /**
 *main- here is where are code starts,
 *it contains the code we want to execute.
-*return- it is used to call back main function environment.
+*return- Always 0 (success)
 */
 int main(void)
 {
