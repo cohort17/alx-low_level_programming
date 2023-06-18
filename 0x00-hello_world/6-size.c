@@ -4,7 +4,7 @@
 *
 *it contains the code we want to execute.
 *
-*return- here tells us if our code execution was successfull or not. 
+*return- here tells us if our code execution was successfull or there was error.
 */
 int main(void)
 {
