@@ -3,7 +3,7 @@
 *main- here is where are code starts,
 *it contains the code we want to execute.
 *return-here shows the executed codes in the main function,
-*if it executed successfully 
+*if it executed successfully
 */
 int main(void)
 {
