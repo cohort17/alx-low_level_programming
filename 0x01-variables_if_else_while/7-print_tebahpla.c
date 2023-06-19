@@ -7,7 +7,7 @@
 int main(void)
 {
 int v;
-for (v = 97; v <= 122; v--)
+for (v = 122; v <= 97; v--)
 {
 putchar(v);
 }
