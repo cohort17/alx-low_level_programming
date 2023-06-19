@@ -4,13 +4,13 @@
 *
 *Return: value after code execution done
 */
-int main() {
-int i = 0;
-while (1 <= 9)
+int main(void)
 {
-putchar('i' + 1);
-++i;
+int i;
+for (i =48; i < 58; i++)
+{
+putchar(i);
 }
 putchar('\n');
-return 0;
+return (0);
 }
