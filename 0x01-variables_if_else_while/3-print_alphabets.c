@@ -14,8 +14,7 @@ putchar(v);
 for (v = 65; v <= 90; v++)
 {
 putchar(v);
-} 
+}
 putchar('\n');
- 
 return (0);
 }
