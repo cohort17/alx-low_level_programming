@@ -1,14 +1,16 @@
 #include <stdio.h>
 /**
-*main- starting code execution point
+*main- entrying point for executable code
 *
-*Return: value after code execution done
+*Return: value displayed after code execution
+*
 */
-int main(void)
+int main() {
+char c;
+for (c = 'z'; c >= 'a'; c--)
 {
-char i;
-for (i = 'z'; i <= 'a'; i--)
-putchar(i);
+putchar(c);
+}
 putchar('\n');
-return (0);
+return 0;
 }
