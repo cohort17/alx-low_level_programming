@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 *print_alphabet: it writes alphabets in lowercase and new lines follows
 *
 */
