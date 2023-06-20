@@ -5,7 +5,8 @@
 *Return: value displayed after code execution
 *
 */
-int main() {
+int main(void)
+{
 char c;
 for (c = 'z'; c >= 'a'; c--)
 {
