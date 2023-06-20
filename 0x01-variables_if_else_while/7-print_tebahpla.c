@@ -6,11 +6,9 @@
 */
 int main(void)
 {
-int v;
-for (v = 122; v <= 97; v--)
-{
-putchar(v);
-}
+char i;
+for (i = 'z'; i <= 'a'; i--)
+putchar(i);
 putchar('\n');
 return (0);
 }
