@@ -1,0 +1,18 @@
+#include <stdio.h>
+/**
+*main- enterying data point
+*
+*Return: recalled value after execcution
+*/
+int main(void)
+{
+int i;
+putchar('0');
+putchar(' , ');
+for (i = 1; i < 10; i++)
+{
+putchar(i + '0');
+putchar(' , ');
+}
+return 0;
+}
