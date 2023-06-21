@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * _abs - the absolute value of an integer is being entered
-* @n: The integer to be entered
+* @r: The integer to be entered
 *
 * Return: The absolute value of the integer.
 */
