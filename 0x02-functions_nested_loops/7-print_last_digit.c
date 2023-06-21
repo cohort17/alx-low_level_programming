@@ -1,16 +1,16 @@
+#include <stdio.h>
 #include "main.h"
 /**
-*print_alphabet_x10- it print all alphabets in lowercase 10 times
-*with a new line
+* print_last_digit - Prints the last digit of a number.
+* @r: The number in question.
+*
+* Return: Value of the last digit.
 */
-void print_alphabet_x10(void)
+int print_last_digit(int r)
 {
-int run = 0;
-char beep;
-while (run++ <= 9)
-{
-for (beep = 'a'; beep <= 'z'; beep++)
-_putchar(beep);
-_putchar('\n');
-}
+int last_digit = r % 10;
+if (last_digit < 0)
+last_digit *= -1;
+_putchar(last_digit + '0');
+return (last_digit);
 }
