@@ -1,16 +1,15 @@
 #include "main.h"
+#include <stdio.h>
 /**
-*print_alphabet_x10- it print all alphabets in lowercase 10 times
-*with a new line
+* _abs - the absolute value of an integer is being entered
+* @n: The integer to be entered
+*
+* Return: The absolute value of the integer.
 */
-void print_alphabet_x10(void)
+int _abs(int r)
 {
-int run = 0;
-char beep;
-while (run++ <= 9)
-{
-for (beep = 'a'; beep <= 'z'; beep++)
-_putchar(beep);
-_putchar('\n');
-}
+if (r >= 0)
+return (r);
+else
+return (-r);
 }
