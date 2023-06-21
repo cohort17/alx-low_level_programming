@@ -4,6 +4,7 @@
 *_isalpha- it print character if it is alphabet
 *
 *@r: is the character to be checked
+*Return: it displays 0
 */
 int _isalpha(int r)
 {
