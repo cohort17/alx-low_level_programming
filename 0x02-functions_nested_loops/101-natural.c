@@ -1,16 +1,19 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* print_last_digit - Prints the last digit of a number.
-* @r: The number in question.
+*main - Lists all the natural numbers below 1024 (excluded)
+*that are multiples of 3 or 5.
 *
-* Return: Value of the last digit.
+*Return: Always 0.
 */
-int print_last_digit(int r)
+int main(void)
 {
-int last_digit = r % 10;
-if (last_digit < 0)
-last_digit *= -1;
-_putchar(last_digit + '0');
-return (last_digit);
+int b, sum = 0;
+for (b = 0; b < 1024; b++)
+{
+if ((b % 3) == 0 || (b % 5) == 0)
+sum += b;
+}
+printf("%d\n", sum);
+return (0);
 }
