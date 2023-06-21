@@ -1,16 +1,27 @@
 #include "main.h"
 /**
-*print_alphabet_x10- it print all alphabets in lowercase 10 times
-*with a new line
+* print_sign - Prints the sign of a number.
+* @r: The number of which the sign will be printed.
+*
+* Return: 1 if the number is greater than zero,
+*0 if the number is zero,
+*-1 if the number is less than zero.
 */
-void print_alphabet_x10(void)
+int print_sign(int r)
 {
-int run = 0;
-char beep;
-while (run++ <= 9)
+if (r > 0)
 {
-for (beep = 'a'; beep <= 'z'; beep++)
-_putchar(beep);
-_putchar('\n');
+_putchar('+');
+return (1);
+}
+else if (r == 0)
+{
+_putchar('0');
+return (0);
+}
+else
+{
+_putchar('-');
+return (-1);
 }
 }
