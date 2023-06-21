@@ -1,16 +1,25 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* print_last_digit - Prints the last digit of a number.
-* @r: The number in question.
+*main -Prints the sum of even-valued Fibonacci sequence
+*terms not exceeding 4000000.
 *
-* Return: Value of the last digit.
+* Return: Always 0.
 */
-int print_last_digit(int r)
+int main(void)
 {
-int last_digit = r % 10;
-if (last_digit < 0)
-last_digit *= -1;
-_putchar(last_digit + '0');
-return (last_digit);
+unsigned long fib1 = 0, fib2 = 1, fibsum;
+float tot_sum;
+while (1)
+{
+fibsum = fib1 + fib2;
+if (fibsum > 4000000)
+break;
+if ((fibsum % 2) == 0)
+tot_sum += fibsum;
+fib1 = fib2;
+fib2 = fibsum;
+}
+printf("%.0f\n", tot_sum);
+return (0);
 }
