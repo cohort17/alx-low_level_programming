@@ -5,4 +5,5 @@
 
 void positive_or_negative(int i);
 int largest_number();
+int putchar();
 #endif /* MAIN_H */
