@@ -1,16 +1,22 @@
+#include <stdio.h>
 #include "main.h"
 /**
-*print_alphabet_x10- it print all alphabets in lowercase 10 times
-*with a new line
+*print_to_98 - Prints all natural numbers from input to 98,
+*in order separated by a comma followed by a space.
+*@n: The number to begin counting at.
 */
-void print_alphabet_x10(void)
+void print_to_98(int v)
 {
-int run = 0;
-char beep;
-while (run++ <= 9)
+if (v >= 98)
 {
-for (beep = 'a'; beep <= 'z'; beep++)
-_putchar(beep);
-_putchar('\n');
+while (v > 98)
+printf("%d, ", v--);
+printf("%d\n", v);
+}
+else
+{
+while (v < 98)
+printf("%d, ", v++);
+printf("%d\n", v);
 }
 }
