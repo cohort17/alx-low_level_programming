@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*more_numbers - Prints the numbers 0-14 ten times
+*more_numbers- Prints the numbers 0-14 ten times
 *@num: number to be counted
-*@count: number to be counted
+*@count: second number to be counted
 */
 void more_numbers(void)
 {
