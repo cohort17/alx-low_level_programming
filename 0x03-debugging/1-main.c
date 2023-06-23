@@ -8,10 +8,7 @@ int main(void)
 int i;
 printf("Infinite loop incoming :(\n");
 i = 0;
-/*the loop is not incremented
-*and i should be i < 1
-*/
-while (i < 10)
+while (i < 10) /*the loop is not incremented and i should be i < 1*/
 {
 putchar(i);
 }
