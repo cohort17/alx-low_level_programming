@@ -9,6 +9,6 @@ int len = 0, index;
 while (s[index++])
 len++;
 for (index = len - 1; index >= 0; index--)
-_putchar("%c", s[index]);
+_putchar(char *c, s[index]);
 _putchar('\n');
 }
