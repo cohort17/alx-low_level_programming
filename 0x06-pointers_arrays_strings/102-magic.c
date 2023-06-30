@@ -1,4 +1,12 @@
 #include <stdio.h>
+/**
+*main- it is the enterying point for code execution
+*@n: it is the first variable
+*@a: it is the second variable
+*@p: it is the third variable
+*
+*Return: value to be returned it 0.
+*/
 int main(void)
 {
 int n;
