@@ -15,7 +15,8 @@ p = &n;
    * - only one statement
    * - you are not allowed to code anything else than this line of code
    */
- a[2] = 98;
+ /* update a[2] value indirectly using pointer*/
+ *(p + 2) = 98;
 /* ...so that this prints 98\n */
 printf("a[2] = %d\n", a[2]);
 return (0);
