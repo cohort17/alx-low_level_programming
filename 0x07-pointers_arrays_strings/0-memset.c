@@ -1,13 +1,13 @@
 #include "main.h"
 /**
-*memset- givee the memory area bytes pointed by @s
+*_memset- givee the memory area bytes pointed by @s
 *and the @c constant byte.
 *
 *@s: it points to memory area to be filled
 *@c: it fills the memory area with character
 *@n: it gives the number of bytes to be filled
 *
-*Returm: gives @s memory area it points to.
+*Return: it gives memory area that @s points to.
 */
 void *_memset(void *s, int c, size_t n)
 {
