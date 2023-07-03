@@ -7,7 +7,7 @@
 *@src: it a source where character will be copied from.
 *@n: it gives the number of bytes to be copied from @src
 *
-*Returm: A pointer to the destination buffer @dest
+*Return: it value is pointer to the destination buffer @dest
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
