@@ -1,12 +1,12 @@
-/**
- * date: 07/july/2023.
- * author: Eze Chiadikaobi
- * file: header file
-*/
-
-
 #ifndef MAIN_H
 #define MAIN_H
+
+/**
+*author: Eze Chiadikaobi
+*file: main.h
+*Description- Header file containing the prototypes of all functions
+*included in the static library libmy.a
+*/
 
 int _putchar(char c);
 int _islower(int c);
