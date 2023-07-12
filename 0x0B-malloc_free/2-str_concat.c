@@ -7,7 +7,7 @@
 *@s2: The string to be concatenated to s1.
 *
 *Return: If concatenation fails - NULL
-*otherwise - a pointer the newly-allocated space 
+*otherwise - a pointer the newly-allocated space
 *in memory containing the concatenated strings.
 */
 
