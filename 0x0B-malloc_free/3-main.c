@@ -20,10 +20,10 @@ h = 0;
 while (h < height)
 {
 w = 0;
-while(w < width)
+while (w < width)
 {
-	printf("%d ", grid[h][w]);
-	w++;
+printf("%d ", grid[h][w]);
+w++;
 }
 printf("\n");
 h++;
