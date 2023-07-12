@@ -4,6 +4,8 @@
 
 /**
 *main - checks the code for ALX School students
+*@av: it's the address of the pointer
+*@ac: it's the second address
 *
 *Return: return 0 if successful.
 *

@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 /**
 *print_tab - prints an array of string
@@ -20,7 +20,7 @@ printf("%s\n", tab[i]);
 /**
 *main - chesks the code for ALX school students
 *
-*gives 0 if successful and 0 if error occurs
+*Return: gives 0 if successful and 0 if error occurs
 *
 */
 
@@ -33,6 +33,6 @@ if (tab == NULL)
 printf("fail\n");
 return(1);
 }
-print_tab(tab);
+print_tab( tab);
 return (0);
 }

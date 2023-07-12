@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-*argstostr - Concatenates all arguments 
-*of the program into a string; arguments are separated 
+*argstostr - Concatenates all arguments
+*of the program into a string; arguments are separated
 *by a new line in the string.
 *@ac: The number of arguments passed to the program.
 *@av: An array of pointers to the arguments.

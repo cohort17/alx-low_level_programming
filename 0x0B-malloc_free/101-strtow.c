@@ -10,7 +10,7 @@ char **strtow(char *str);
 *first word contained within a string.
 *@str: The string to be searched.
 *
-*Return: The index marking the end of the initial 
+*Return: The index marking the end of the initial
 *word pointed to by str.
 */
 int word_len(char *str)
@@ -62,7 +62,7 @@ return (NULL);
 words = count_words(str);
 if (words == 0)
 return (NULL);
-strings = malloc(sizeof(char *) * (words + 1));
+s = malloc(sizeof(char *) * (words + 1));
 if (s == NULL)
 return (NULL);
 for (w = 0; w < words; w++)
