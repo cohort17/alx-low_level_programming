@@ -9,7 +9,7 @@
 *@n: the number of bytes s2 to be concatenated to s1
 *
 *Return: give NULL if code fails or
-*the memory space pointer concatenated 
+*the memory space pointer concatenated
 */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
