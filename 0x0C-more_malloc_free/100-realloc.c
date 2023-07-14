@@ -35,7 +35,7 @@ free(ptr);
 return (NULL);
 }
 n_copy = ptr;
-mx malloc(sizeof(*n_copy) * new_size);
+mx = malloc(sizeof(*n_copy) * new_size);
 if (mx == NULL)
 {
 free(ptr);
