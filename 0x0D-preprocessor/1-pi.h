@@ -4,11 +4,10 @@
 /**
 *auth: Eze Chiadikaobi
 *
-*date: 17/07/2023
+*Description: Header file that defines a macro named PI
+*PI: as an abbreviation for the token 3.14159265359
 *
-*description: assigning a float value to the
-*macro PI
-*file: macro header file
+*file: header file
 */
 
 #define PI 3.14159265359

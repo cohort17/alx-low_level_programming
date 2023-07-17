@@ -4,6 +4,8 @@
 /**
 * main - check the code
 *
+*@s: the integer variable to be assigned with value of 
+*SIZE
 * Return: Always 0.
 */
 int main(void)

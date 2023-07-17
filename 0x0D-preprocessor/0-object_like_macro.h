@@ -1,12 +1,12 @@
-#ifndef MACRO_H
-#define MACRO_H
+#ifndef OBJECT_LIKE_MACRO_H
+#define OBJECT_LIKE_MACRO_H
 
 /**
-*auth: Eze Chiadikaobi
+*Auth: Eze Chiadikaobi
 *
-*date: 17/07/2023
-*
-*file: macro header file
+*File: header file
+*Description: macro header file that defines
+*a macro named SIZE as an abbreviation for the token 1024
 */
 
 #define SIZE 1024
