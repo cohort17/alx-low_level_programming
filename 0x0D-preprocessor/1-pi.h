@@ -1,5 +1,5 @@
-#ifndef 1-PI_H
-#define 1-PI_H
+#ifndef PI_H
+#define PI_H
 
 /**
 *auth: Eze Chiadikaobi
@@ -11,4 +11,4 @@
 
 #define PI 3.14159265359
 
-#endif /* 1-PI_H */
+#endif /* PI_H */
