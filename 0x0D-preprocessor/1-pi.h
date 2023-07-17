@@ -6,6 +6,8 @@
 *
 *date: 17/07/2023
 *
+*description: assigning a float value to the
+*macro PI
 *file: macro header file
 */
 
