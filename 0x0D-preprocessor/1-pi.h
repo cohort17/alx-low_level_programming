@@ -1,5 +1,5 @@
-#ifndef MACRO_H
-#define MACRO_H
+#ifndef 1-PI_H
+#define 1-PI_H
 
 /**
 *auth: Eze Chiadikaobi
@@ -11,4 +11,4 @@
 
 #define PI 3.14159265359
 
-#endif
+#endif /* 1-PI_H */
