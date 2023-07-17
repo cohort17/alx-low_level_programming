@@ -12,7 +12,7 @@ float a;
 float r;
 
 r = 98;
-a = PI * (r * r);
+a = r *r *PI;
 printf("%.3f\n", a);
 return (0);
 }
