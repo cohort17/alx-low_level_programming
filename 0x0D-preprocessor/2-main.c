@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
-*main - it is code starting point
+* main - Prints the name of the file of the program
+* was compiled from, followed by a new line.
 *
-*Return: 0 if successful
-*
+* Return: Always 0.
 */
-
 int main(void)
 {
-printf("this was compiled from file: %s\n", __FILE__);
+printf("%s\n", __FILE__);
+
 return (0);
 }
