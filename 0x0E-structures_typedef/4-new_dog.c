@@ -15,10 +15,10 @@ int _strlen(char *str)
 {
 int len = 0;
 
-	while (*str++)
+while (*str++)
 len++;
 
-	return (len);
+return (len);
 }
 
 /**
@@ -33,12 +33,12 @@ char *_strcopy(char *dest, char *src)
 {
 int index = 0;
 
-	for (index = 0; src[index]; index++)
+for (index = 0; src[index]; index++)
 dest[index] = src[index];
 
 dest[index] = '\0';
 
-	return (dest);
+return (dest);
 }
 
 /**
@@ -68,7 +68,7 @@ free(doggo);
 }
 
 doggo->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
-	if (doggo->owner == NULL)
+if (doggo->owner == NULL)
 {
 free(doggo->name);
 free(doggo);
